@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: rgb(43, 42, 42);
+}
+
+.navbar{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    align-content: center;
+    justify-content: center;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+.logo{
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.5rem;
+    /* background: transparent;
+    background-color: transparent; */
+    z-index: 4;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(43, 42, 42);
+    /* height: 40.8rem; */
+    /* align-items: center; */
+}
+
+/* input{
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+    width: 30rem;
+} */
+form{
+    background-color: beige;
+}
+#imageSize,#imageDetails{
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+    width: 30rem;
+}
+button{
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+    
+}
+#msg{
+    color: cornsilk;
+}

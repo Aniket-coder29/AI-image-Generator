@@ -16,7 +16,7 @@ const generateImage = async(req,res)=>{
             size:imageSize,
         });
         const imageUrl=response.data.data['0'].url;
-        console.log(response.data);
+        // console.log(response.data);
         res.status(200).json({
             success:true,
             data:imageUrl,
