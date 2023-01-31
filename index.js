@@ -15,3 +15,5 @@ app.use('/openai', require('./routes/openairoutes'));
 app.listen(port,()=>{
     console.log(`Server started on ${port}`);
 })
+
+module.exports=app;
